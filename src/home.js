@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import CardImage from "./cardImage";
 export default class Home extends Component {
   render() {
     return (
@@ -23,47 +23,23 @@ export default class Home extends Component {
         </div>
 
         <div className="container">
-          <img src="image/fronthotel.jpg" class="shadow-lg img-fluid w-100"></img>
+          <img
+            src="image/fronthotel.jpg"
+            class="shadow-lg img-fluid w-100"
+          ></img>
         </div>
-
 
         <div className="container-fluid padding-topbot">
           <div class="row">
             <div className="col-6">
-              <div class="card card-width mx-auto shadow-lg">
-                <img src="/image/hotel1.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">
-                    orem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lo rem Ipsum has been the industry's
-                    standard dummy text ever since the 1500 s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                </div>
-              </div>
+              <CardImage src="image/hotel1.jpg" text="Mek" />
             </div>
             <div className="col-6">
-              <div class="card card-width mx-auto shadow-lg">
-                <img src="/image/hotel2.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">
-                    orem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lo rem Ipsum has been the industry's
-                    standard dummy text ever since the 1500 s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                </div>
-              </div>
+              <CardImage src="image/hotel2.jpg" text="Mek2" />
             </div>
           </div>
         </div>
- 
-
-
       </div>
     );
-
   }
 }
