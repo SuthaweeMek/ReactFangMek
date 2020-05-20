@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color:#FFD2AB !important; 
+}
+.navbar-custom { 
+  background-color: #804817; 
+} 
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.no-margin{
+  margin-left:0px;
+  margin-right:0px;
+}
+.container-bg{
+  background-color:red;
+}
+.card-width{
+  width:25rem;
+}
+.col-align{
+  align:center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.padding-topbot{
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
